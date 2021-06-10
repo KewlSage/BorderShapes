@@ -1,0 +1,68 @@
+/**
+ * @name BorderShapes
+ * @version 1.0.0
+ * @author JayWilson
+ * @authorLink https://github.com/JayWilson7
+ * @description Custom border shapes for elements.
+ * @source https://github.com/JayWilson7/BorderShapes
+ * @invite jcDvkVk
+**/
+
+  /*------------------------------*/
+ /*-----<Source Code Import>-----*/
+/*------------------------------*/
+
+@import url(https://jaywilson7.github.io/BorderShapes/Source/base.css);
+
+  /*---------------------------*/
+ /*-----<Basic Variables>-----*/
+/*---------------------------*/
+
+:root {
+   --borders-buttons-rounded: 0px; /*Border shapes for rounded buttons. 25px for circle, 0px for square*/
+   --borders-buttons-circle: 0px; /*Border shapes for circle buttons. 25px for circle, 0px for square*/
+   --borders-switches: 0px; /*Border shapes for switches. 15px for circle, 0px for square*/
+   --borders-checkboxes: 0%; /*Border shapes for checkboxes. 50% for circle, 0% for square*/
+   --borders-slider-bars: 0px; /*Border shapes for slider bars. 5px for circle, 0px for square*/
+   --borders-slider-grabbers: 0px; /*Border shapes for slider grabbers. 8px for circle, 0px for square*/
+   --borders-progress-bars: 0px; /*Border shapes for progress bars. 5px for circle, 0px for square*/
+   --borders-inputs: 0px; /*Border shapes for inputs. 25px for circle, 0px for square*/
+   --borders-contexts: 0px; /*Border shapes for context menus. 25px for circle, 0px for square*/
+   --borders-popouts: 0px; /*Border shapes for popouts. 25px for circle, 0px for square*/
+   --borders-modals: 0px; /*Border shapes for modals. 25px for circle, 0px for square*/
+   --borders-cards: 0px; /*Border shapes for cards. 25px for circle, 0px for square*/
+   --borders-media: 0px; /*Border shapes for images, videos, audios and gifs. 25px for circle, 0px for square*/
+   --borders-previews: 0px; /*Border shapes for previews. 25px for circle, 0px for square*/
+   --borders-servers-default: 0%; /*Border shapes for server icons and circle buttons on server side. 50% for circle, 0% for square*/
+   --borders-servers-interactive: 0%; /*Border shapes for hovered or selected elements mentioned in previous description. 50% for circle, 0% for square*/
+   --borders-folders: 0px; /*Border shapes for server folders. 35px for circle, 0px for square*/
+   --borders-avatars: 0%; /*Border shapes for avatars. 50% for circle, 0% for square*/
+   --borders-icons-default: 0%; /*Border shapes for icons that have width equal height. 50% for circle, 0% for square*/
+   --borders-icons-wide: 0px; /*Border shapes for icons that have more width than height. 5px for circle, 0px for square*/
+   --borders-labels-large: 0px; /*Border shapes for large text and number indicators. 15px for circle, 0px for square*/
+   --borders-labels-small: 0px; /*Border shapes for small text and number indicators. 10px for circle, 0px for square*/
+   --borders-pills: 0px; /*Border shapes for unread badges and selected server pills. 5px for circle, 0px for square*/
+   --borders-lines: 0px; /*Border shapes for lines when you drag categories or channels. 2px for circle, 0px for square*/
+   --borders-role-outlines: 0px; /*Border shapes for roles outlines. 10px for circle, 0px for square*/
+   --borders-role-dots: 0px; /*Border shapes for roles dots. 10px for circle, 0px for square*/
+   --borders-messages: 0px; /*Border shapes for hovered or highlighted messages. 25px for circle, 0px for square*/
+   --borders-mentions: 0px; /*Border shapes for mentions. 10px for circle, 0px for square*/
+   --borders-reactions: 0px; /*Border shapes for reactions. 10px for circle, 0px for square*/
+   --borders-codes: 0px; /*Border shapes for codes and codeblocks. 10px for circle, 0px for square*/
+   --borders-embeds: 0px; /*Border shapes for embeds. 25px for circle, 0px for square*/
+   --borders-replies: 0px; /*Shape for top left replies border. 15px for circle, 0px for square*/
+   --borders-quotes: 0px; /*Border shapes for quote icon. 2px for circle, 0px for square*/
+   --borders-spoilers: 0px; /*Border shapes for spoilers. 10px for circle, 0px for square*/
+   --borders-tooltips: 0px; /*Border shapes for tooltips. 25px for circle, 0px for square*/
+   --borders-scrollbars: 0px; /*Border shapes for scrollbars. 10px for circle, 0px for square*/
+   --borders-sidebar-and-notices: 0px; /*Shape for top left sidebar and notices border. 25px for circle, 0px for square*/
+   --borders-navigation-highlight: 0px; /*Border shapes for navigation highlight when you press TAB. 25px for circle, 0px for square*/
+   --borders-toasts: 0px; /*Border shapes for toasts. 25px for circle, 0px for square*/
+   --borders-code-editors: 0px; /*Border shapes for code editors workspace. 10px for circle, 0px for square*/
+}
+
+  /*--------------------------*/
+ /*-----<Root Variables>-----*/
+/*--------------------------*/
+
+/*You can find root variables here: https://github.com/JayWilson7/BorderShapes/blob/master/Source/base.css */
