@@ -1,7 +1,7 @@
 {
     "name": "BorderShapes",
     "version": "1.0.0",
-    "author": "JayWilson",
+    "author": "JayWilson, kewlsage",
     "description": "Custom border shapes for elements.",
     "theme": "BorderShapes.theme.css",
     "consent": "false",

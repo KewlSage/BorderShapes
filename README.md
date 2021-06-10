@@ -1,6 +1,6 @@
 # Description
 
-**BorderShapes by [JayWilson](https://github.com/JayWilson7)**
+**BorderShapes by [JayWilson](https://github.com/jaywilson7), Maintained by [KewlSage](https://github.com/kewlsage)**
 
 Custom border shapes for elements.
 
@@ -14,20 +14,20 @@ Custom border shapes for elements.
 
 # Previews
 
-![Preview_1](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_1.png)
-![Preview_2](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_2.png)
-![Preview_3](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_3.png)
+![Preview_1](https://github.com/kewlsage/BorderShapes/raw/master/Previews/Preview_1.png)
+![Preview_2](https://github.com/kewlsage/BorderShapes/raw/master/Previews/Preview_2.png)
+![Preview_3](https://github.com/kewlsage/BorderShapes/raw/master/Previews/Preview_3.png)
 
 There is more customizable elements borders in theme. Check it out!
 
 # Wiki
 
-You can read [theme wiki](https://github.com/JayWilson7/BorderShapes/wiki) to get all information about:
+~~You can read [theme wiki](https://github.com/kewlsage/BorderShapes/wiki) to get all information about:~~
 
-- Installing theme 
-- Changing variables
-- Getting root variables
-- Updating theme
+- ~~Installing theme~~ 
+- ~~Changing variables~~
+- ~~Getting root variables~~
+- ~~Updating theme~~
 
 # Credits
 
