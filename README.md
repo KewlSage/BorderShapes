@@ -14,9 +14,9 @@ Custom border shapes for elements.
 
 # Previews
 
-![Preview_1](https://github.com/kewlsage/BorderShapes/raw/master/Previews/Preview_1.png)
-![Preview_2](https://github.com/kewlsage/BorderShapes/raw/master/Previews/Preview_2.png)
-![Preview_3](https://github.com/kewlsage/BorderShapes/raw/master/Previews/Preview_3.png)
+![Preview_1](https://raw.githubusercontent.com/KewlSage/bordershapes/main/Previews/Preview_1.png)
+![Preview_2](https://raw.githubusercontent.com/KewlSage/bordershapes/main/Previews/Preview_2.png)
+![Preview_3](https://raw.githubusercontent.com/KewlSage/bordershapes/main/Previews/Preview_3.png)
 
 There is more customizable elements borders in theme. Check it out!
 
