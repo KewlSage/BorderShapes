@@ -923,13 +923,13 @@ body .button-2DhvE9,
    height: 100%;
    z-index: 1;
 }
-#app-mount .avatarHint-1qgaV3 foreignObject {
+#app-mount .avatarHint-2A3RNb foreignObject {
    -webkit-mask: none;
            mask: none;
    x: calc(var(--avatar-wrapper-size-80) / 35);
    y: calc(var(--avatar-wrapper-size-80) / 35);
 }
-#app-mount .avatarHint-1qgaV3 .avatarHintInner-Dco91E {
+#app-mount .avatarHint-2A3RNb .avatarHintInner-1TvA8u {
    width: calc(var(--avatar-wrapper-size-80) - 4px);
    height: calc(var(--avatar-wrapper-size-80) - 4px);
    border-radius: var(--borders-avatars);
