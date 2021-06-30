@@ -116,6 +116,7 @@ body .button-2DhvE9,
 #app-mount .colorPickerSwatch-5GX3Ve.default-cS_caM,
 #app-mount .colorPickerSwatch-5GX3Ve.custom-2SJn4n,
 #app-mount .colorPickerSwatch-5GX3Ve,
+#app-mount .swatch-3mFIiP,
 #app-mount .stickerCategory-3Yz7vN,
 #app-mount .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3,
 #app-mount .labelContainer-1BLJti,
@@ -308,7 +309,9 @@ body .button-2DhvE9,
 #app-mount .menu-3sdvDG {
    border-radius: var(--borders-contexts);
 }
-#app-mount .userPopout-3XzG_A,
+#app-mount .userPopout-xaxa6l,
+#app-mount .accountProfileCard-1XCH88,
+#app-mount .profileBannerPreview-3_l0Wd,
 #app-mount #status-picker,
 #app-mount .lookFilled-1h1y05.popout-2sKjHu,
 #app-mount .sizeMedium-6vZ9JV.select-1Pkeg4,
