@@ -37,7 +37,7 @@ This theme code used in BorderShapes theme.
 
 # Support
 
-- ~~**JayWilson's Place**~~ [**Kewl Sages Serberb**](https://discord.gg/SmTj5JgCeA)
+- ~~**JayWilson's Place**~~ [**New Support Server**](https://discord.gg/nh4YPGU66x)
 
 - [**BetterDiscord Server**](https://discord.gg/0Tmfo5ZbORCRqbAd)
 
