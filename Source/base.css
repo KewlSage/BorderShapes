@@ -774,7 +774,8 @@
  .avatarHint-2A3RNb,
  .avatarContainer-28iYmV,
  .avatar-2fD4wn,
- .avatar-3Bhz0p {
+ .avatar-3Bhz0p,
+ .avatar-1BDn8e{
     border-radius: var(--borders-avatars);
  }
  
@@ -782,7 +783,7 @@
     overflow: hidden;
  }
  
- .avatar-2PN2-j, .avatar-37jOim {
+ .avatar-2PN2-j, .avatar-37jOim, .avatarUploaderInner-Oiob_P {
     border: 1px solid black;
     background-color: #202020;
     border-radius: var(--borders-avatars);
@@ -793,7 +794,7 @@
     top: 5px;
  }
  
- .avatar-AvHqJA {
+ .avatar-AvHqJA, .avatar-1uQSZT {
     border: 2px solid black;
     background-color: #202020;
     border-radius: var(--borders-avatars);
