@@ -1,5 +1,5 @@
   /*--------------------------*/
-/*-----<Root Variables>-----*/
+ /*-----<Root Variables>-----*/
 /*--------------------------*/
 
 :root {
@@ -9,10 +9,17 @@
   --borders-color-floating: var(--background-floating); /*Borders color for elements on floating background. Default - var(--background-floating)*/
   --borders-color-textarea: var(--channeltextarea-background); /*Borders color for elements on channel textarea background. Default - var(--channeltextarea-background)*/
   --borders-color-activity: #6c82cf; /*Borders color for elements on activity background. Default - #6c82cf*/
+/* Status radiuses, the least comprehendable part of this entire theme. */
+  --status-radius-8: 0%; /* Unknown range */
+  --status-radius-10: 0%; /* 0-10% */
+  --status-radius-12: 0%; /* 0-8% */
+  --status-radius-16: 0%; /* 0-7% */
+  --status-radius-24: 0%; /* 0-7% */
+  --status-radius-misc: 0%; /* Unknown range */
 }
 
- /*---------------------------------*/
-/*-----<Buttons Border Shapes>-----*/
+  /*---------------------------------*/
+ /*-----<Buttons Border Shapes>-----*/
 /*---------------------------------*/
 
 #app-mount button,
@@ -185,8 +192,8 @@ body .button-2DhvE9,
   border-radius: var(--borders-buttons-circle) !important;
 }
 
- /*-----------------------------------------*/
-/*-----<Switching Stuff Border Shapes>-----*/
+  /*-----------------------------------------*/
+ /*-----<Switching Stuff Border Shapes>-----*/
 /*-----------------------------------------*/
 
 #app-mount .container-3auIfb,
@@ -207,8 +214,8 @@ body .button-2DhvE9,
   border-radius: var(--borders-checkboxes);
 }
 
- /*-----------------------------------*/
-/*-----<Bar Stuff Border Shapes>-----*/
+  /*-----------------------------------*/
+ /*-----<Bar Stuff Border Shapes>-----*/
 /*-----------------------------------*/
 
 #app-mount .bar-2Qqk5Z,
@@ -279,8 +286,8 @@ body .button-2DhvE9,
   border-radius: 0 0 var(--borders-inputs) var(--borders-inputs);
 }
 
- /*---------------------------------*/
-/*-----<Windows Border Shapes>-----*/
+  /*---------------------------------*/
+ /*-----<Windows Border Shapes>-----*/
 /*---------------------------------*/
 
 #app-mount .menu-3sdvDG {
@@ -378,8 +385,8 @@ body .button-2DhvE9,
   border-radius: 0 var(--borders-modals) var(--borders-modals) 0;
 }
 
- /*------------------------------------*/
-/*-----<Card Stuff Border Shapes>-----*/
+  /*------------------------------------*/
+ /*-----<Card Stuff Border Shapes>-----*/
 /*------------------------------------*/
 
 #app-mount .cardPrimary-1Hv-to,
@@ -612,8 +619,8 @@ body .button-2DhvE9,
   border-radius: var(--borders-previews);
 }
 
- /*--------------------------------------*/
-/*-----<Server Stuff Border Shapes>-----*/
+  /*--------------------------------------*/
+ /*-----<Server Stuff Border Shapes>-----*/
 /*--------------------------------------*/
 
 #app-mount .childWrapper-anI2G9,
@@ -679,8 +686,8 @@ body .button-2DhvE9,
   border-radius: var(--borders-folders);
 }
 
- /*--------------------------------------*/
-/*-----<Avatar Stuff Border Shapes>-----*/
+  /*--------------------------------------*/
+ /*-----<Avatar Stuff Border Shapes>-----*/
 /*--------------------------------------*/
 
 #app-mount .wrapper-3t9DeA foreignObject,
@@ -696,10 +703,13 @@ body .button-2DhvE9,
 #app-mount .avatarHint-2A3RNb rect,
 #app-mount .wrapper-2QE8vf rect,
 #app-mount .row-1c01mR rect {
-  x: calc(100% - 8px);
-  y: calc(50% - 4px);
+  x: calc(100% - 18px);
+  y: calc(100% - 10px);
   width: 8px;
   height: 8px;
+  mask: none;
+  stroke-width: 1.5px;
+  stroke: var(--background-primary);
 }
 
 #app-mount .wrapper-3t9DeA rect[mask*="mobile"],
@@ -707,17 +717,20 @@ body .button-2DhvE9,
 #app-mount .wrapper-2QE8vf rect[mask*="mobile"],
 #app-mount .row-1c01mR rect[mask*="mobile"] {
   height: 14px;
-  y: calc(50% - 7px);
+  y: calc(50% - -0px);
 }
 
 #app-mount .wrapper-3t9DeA rect[width="16"],
 #app-mount .avatarHint-2A3RNb rect[width="16"],
 #app-mount .wrapper-2QE8vf rect[width="16"],
 #app-mount .row-1c01mR rect[width="16"] {
-  x: calc(100% - 12px);
-  y: calc(50% - 6px);
+  x: calc(100% - 28px);
+  y: calc(50% - -24px);
   width: 12px;
   height: 12px;
+  mask: none;
+  stroke-width: 2.5px;
+  stroke: var(--background-primary);
 }
 
 #app-mount .wrapper-3t9DeA rect[width="16"][mask*="mobile"],
@@ -725,17 +738,20 @@ body .button-2DhvE9,
 #app-mount .wrapper-2QE8vf rect[width="16"][mask*="mobile"],
 #app-mount .row-1c01mR rect[width="16"][mask*="mobile"] {
   height: 18px;
-  y: calc(50% - 9px);
+  y: calc(50% - -19px);
 }
 
 #app-mount .wrapper-3t9DeA rect[width="24"],
 #app-mount .avatarHint-2A3RNb rect[width="24"],
 #app-mount .wrapper-2QE8vf rect[width="24"],
 #app-mount .row-1c01mR rect[width="24"] {
-  x: calc(100% - 18px);
-  y: calc(50% - 9px);
+  x: calc(100% - 42px);
+  y: calc(50% - -36px);
   width: 18px;
   height: 18px;
+  mask: none;
+  stroke-width: 3.5px;
+  stroke: var(--background-primary);
 }
 
 #app-mount .wrapper-3t9DeA rect[width="24"][mask*="mobile"],
@@ -743,14 +759,31 @@ body .button-2DhvE9,
 #app-mount .wrapper-2QE8vf rect[width="24"][mask*="mobile"],
 #app-mount .row-1c01mR rect[width="24"][mask*="mobile"] {
   height: 27px;
-  y: calc(50% - 13.5px);
+  y: calc(50% - -25.5px);
 }
 
-#app-mount .wrapper-3t9DeA .dots-3Bkt3k,
-#app-mount .avatarHint-2A3RNb .dots-3Bkt3k,
-#app-mount .wrapper-2QE8vf .dots-3Bkt3k,
-#app-mount .row-1c01mR .dots-3Bkt3k {
-   display: none;
+#app-mount .status-1XNdyw {
+  display: none;
+}
+
+#app-mount .pointerEvents-2zdfdO[width="8"]:not([mask="url(#svg-mask-status-online-mobile)"]){
+  rx: var(--status-radius-8);
+}
+#app-mount .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]){
+  rx: var(--status-radius-10);
+}
+#app-mount .pointerEvents-2zdfdO[width="12"]:not([mask="url(#svg-mask-status-online-mobile)"]){
+  rx: var(--status-radius-12);
+}
+#app-mount .pointerEvents-2zdfdO[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]){
+  rx: var(--status-radius-16);
+}
+#app-mount .pointerEvents-2zdfdO[width="24"]:not([mask="url(#svg-mask-status-online-mobile)"]){
+  rx: var(--status-radius-24);
+}
+#app-mount div:not(.avatarWrapper-2yR4wp) .mask-1l8v16 > svg > mask > rect:first-child,
+#app-mount .avatarWrapper-2yR4wp .wrapper-3t9DeA > .mask-1l8v16 > svg > rect {
+  rx: var(--status-radius-misc);
 }
 
 #app-mount .avatarMasked-3y6o4j {
@@ -786,8 +819,8 @@ span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12
 #app-mount .avatar-2PN2-j,
 #app-mount .avatar-37jOim,
 #app-mount .avatarUploaderInner-Oiob_P {
-   border: 1px solid black;
-   background-color: #202020;
+   border: 1.5px solid var(--background-floating);
+   background-color: var(--background-primary);
    border-radius: var(--borders-avatars);
 }
 
@@ -798,13 +831,13 @@ span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12
 
 #app-mount .avatar-AvHqJA,
 #app-mount .avatar-1uQSZT {
-  border: 2px solid black;
-  background-color: #202020;
+  border: 3px solid var(--background-floating);
+  background-color: var(--background-primary);
   border-radius: var(--borders-avatars);
 }
 
- /*-------------------------------*/
-/*-----<Icons Border Shapes>-----*/
+  /*-------------------------------*/
+ /*-----<Icons Border Shapes>-----*/
 /*-------------------------------*/
 
 #app-mount .divider-3yU4s2,
@@ -989,8 +1022,8 @@ span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12
   clip-path: inset(3% round var(--borders-icons-wide));
 }
 
- /*------------------------------------*/
-/*-----<Indicators Border Shapes>-----*/
+  /*------------------------------------*/
+ /*-----<Indicators Border Shapes>-----*/
 /*------------------------------------*/
 
 #app-mount .base-PmTxvP,
@@ -1098,8 +1131,8 @@ span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12
   border-radius: var(--borders-lines);
 }
 
- /*------------------------------------*/
-/*-----<Role Stuff Border Shapes>-----*/
+  /*------------------------------------*/
+ /*-----<Role Stuff Border Shapes>-----*/
 /*------------------------------------*/
 
 #app-mount .role-2irmRk,
@@ -1116,8 +1149,8 @@ span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12
   border-radius: var(--borders-role-dots) !important;
 }
 
- /*---------------------------------------*/
-/*-----<Message Stuff Border Shapes>-----*/
+  /*---------------------------------------*/
+ /*-----<Message Stuff Border Shapes>-----*/
 /*---------------------------------------*/
 
 #app-mount .message-2qnXI6 {
@@ -1157,8 +1190,8 @@ span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12
   border-radius: var(--borders-spoilers);
 }
 
- /*------------------------------------*/
-/*-----<Misc Stuff Border Shapes>-----*/
+  /*------------------------------------*/
+ /*-----<Misc Stuff Border Shapes>-----*/
 /*------------------------------------*/
 
 #app-mount .tooltip-2QfLtc,
@@ -1203,4 +1236,3 @@ body .floating-window,
 #app-mount .powercord-quickcss-editor-settings {
   border-radius: var(--borders-code-editors);
 }
-
