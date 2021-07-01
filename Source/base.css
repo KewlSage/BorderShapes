@@ -696,8 +696,8 @@
  .avatarHint-2A3RNb rect,
  .wrapper-2QE8vf rect,
  .row-1c01mR rect {
-    x: calc(100% - 8);
-    y: calc(50% - 4);
+    x: calc(100% - 8px);
+    y: calc(50% - 4px);
     width: 8px;
     height: 8px;
  }
@@ -707,15 +707,15 @@
    .wrapper-2QE8vf rect[mask*="mobile"],
    .row-1c01mR rect[mask*="mobile"] {
     height: 14px;
-    y: calc(50% - 7);
+    y: calc(50% - 7px);
  }
  
  .wrapper-3t9DeA rect[width="16"],
  .avatarHint-2A3RNb rect[width="16"],
  .wrapper-2QE8vf rect[width="16"],
  .row-1c01mR rect[width="16"] {
-    x: calc(100% - 12);
-    y: calc(50% - 6);
+    x: calc(100% - 12px);
+    y: calc(50% - 6px);
     width: 12px;
     height: 12px;
  }
@@ -725,15 +725,15 @@
    .wrapper-2QE8vf rect[width="16"][mask*="mobile"],
    .row-1c01mR rect[width="16"][mask*="mobile"] {
     height: 18px;
-    y: calc(50% - 9);
+    y: calc(50% - 9px);
  }
  
  .wrapper-3t9DeA rect[width="24"],
  .avatarHint-2A3RNb rect[width="24"],
  .wrapper-2QE8vf rect[width="24"],
  .row-1c01mR rect[width="24"] {
-    x: calc(100% - 18);
-    y: calc(50% - 9);
+    x: calc(100% - 18px);
+    y: calc(50% - 9px);
     width: 18px;
     height: 18px;
  }
@@ -743,7 +743,7 @@
    .wrapper-2QE8vf rect[width="24"][mask*="mobile"],
    .row-1c01mR rect[width="24"][mask*="mobile"] {
     height: 27px;
-    y: calc(50% - 13.5);
+    y: calc(50% - 13.5px);
  }
  
  .wrapper-3t9DeA .dots-3Bkt3k,
