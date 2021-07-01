@@ -29,12 +29,6 @@ There is more customizable elements borders in theme. Check it out!
 - ~~Getting root variables~~
 - ~~Updating theme~~
 
-# Credits
-
-**RadialStatus by [Gibbu](https://github.com/Gibbu)**
-
-This theme code used in BorderShapes theme.
-
 # Support
 
 - ~~**JayWilson's Place**~~ [**New Support Server**](https://discord.gg/5Q8R97vhUz)
