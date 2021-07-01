@@ -1,0 +1,95 @@
+:root {
+    --status-radius-8: 0%; /* Unknown range */
+    --status-radius-10: 0%; /* 0-10% */
+    --status-radius-12: 0%; /* 0-8% */
+    --status-radius-16: 0%; /* 0-7% */
+    --status-radius-24: 0%; /* 0-7% */
+    --status-radius-misc: 0%; /* Unknown range */
+}
+
+#app-mount .wrapper-3t9DeA rect,
+#app-mount .avatarHint-2A3RNb rect,
+#app-mount .wrapper-2QE8vf rect,
+#app-mount .row-1c01mR rect {
+  x: calc(100% - 18px) !important;
+  y: calc(100% - 10px) !important;
+  width: 8px !important;
+  height: 8px !important;
+  mask: none !important;
+  stroke-width: 1.5px !important;
+  stroke: var(--background-primary) !important;
+}
+
+#app-mount .wrapper-3t9DeA rect[mask*="mobile"],
+#app-mount .avatarHint-2A3RNb rect[mask*="mobile"],
+#app-mount .wrapper-2QE8vf rect[mask*="mobile"],
+#app-mount .row-1c01mR rect[mask*="mobile"] {
+  height: 14px !important;
+  y: calc(50% - -0px) !important;
+}
+
+#app-mount .wrapper-3t9DeA rect[width="16"],
+#app-mount .avatarHint-2A3RNb rect[width="16"],
+#app-mount .wrapper-2QE8vf rect[width="16"],
+#app-mount .row-1c01mR rect[width="16"] {
+  x: calc(100% - 28px) !important;
+  y: calc(50% - -24px) !important;
+  width: 12px !important;
+  height: 12px !important;
+  mask: none !important;
+  stroke-width: 2.5px !important;
+  stroke: var(--background-primary) !important;
+}
+
+#app-mount .wrapper-3t9DeA rect[width="16"][mask*="mobile"],
+#app-mount .avatarHint-2A3RNb rect[width="16"][mask*="mobile"],
+#app-mount .wrapper-2QE8vf rect[width="16"][mask*="mobile"],
+#app-mount .row-1c01mR rect[width="16"][mask*="mobile"] {
+  height: 18px !important;
+  y: calc(50% - -19px) !important;
+}
+
+#app-mount .wrapper-3t9DeA rect[width="24"],
+#app-mount .avatarHint-2A3RNb rect[width="24"],
+#app-mount .wrapper-2QE8vf rect[width="24"],
+#app-mount .row-1c01mR rect[width="24"] {
+  x: calc(100% - 42px) !important;
+  y: calc(50% - -36px) !important;
+  width: 18px !important;
+  height: 18px !important;
+  mask: none !important;
+  stroke-width: 3.5px !important;
+  stroke: var(--background-primary) !important;
+}
+
+#app-mount .wrapper-3t9DeA rect[width="24"][mask*="mobile"],
+#app-mount .avatarHint-2A3RNb rect[width="24"][mask*="mobile"],
+#app-mount .wrapper-2QE8vf rect[width="24"][mask*="mobile"],
+#app-mount .row-1c01mR rect[width="24"][mask*="mobile"] {
+  height: 27px !important;
+  y: calc(50% - -25.5px) !important;
+}
+
+#app-mount .status-1XNdyw {
+  display: none !important;
+}
+
+#app-mount .pointerEvents-2zdfdO[width="8"]:not([mask="url(#svg-mask-status-online-mobile)"]){
+  rx: var(--status-radius-8) !important;
+}
+#app-mount .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]){
+  rx: var(--status-radius-10) !important;
+}
+#app-mount .pointerEvents-2zdfdO[width="12"]:not([mask="url(#svg-mask-status-online-mobile)"]){
+  rx: var(--status-radius-12) !important;
+}
+#app-mount .pointerEvents-2zdfdO[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]){
+  rx: var(--status-radius-16) !important;
+}
+#app-mount .pointerEvents-2zdfdO[width="24"]:not([mask="url(#svg-mask-status-online-mobile)"]){
+  rx: var(--status-radius-24) !important;
+}
+#app-mount div:not(.avatarWrapper-2yR4wp) .mask-1l8v16 > svg > mask > rect:first-child,
+#app-mount .avatarWrapper-2yR4wp .wrapper-3t9DeA > .mask-1l8v16 > svg > rect {
+  rx: var(--status-radius-misc) !important;
+}
