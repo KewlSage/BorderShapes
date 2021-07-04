@@ -793,9 +793,11 @@ span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12
    border-radius: var(--borders-avatars);
 }
 
-#app-mount .avatar-37jOim {
-   left: 5px;
-   top: 5px;
+#app-mount .avatarHint-2A3RNb {
+   left: 0px;
+   top: 0px;  
+   width: 83px;
+   height: 83px;
 }
 
 #app-mount .avatar-AvHqJA,
