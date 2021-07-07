@@ -350,6 +350,7 @@ body .button-2DhvE9,
 #app-mount .root-SR8cQa,
 #app-mount .root-1gCeng,
 #app-mount .root-3JVdIJ,
+#app-mount .oauth2Wrapper-mHbF5q,
 #app-mount .quickswitcher-3JagVE,
 #app-mount .modal-yWgWj-,
 #app-mount .small-3iVZYw,
@@ -368,7 +369,8 @@ body .button-2DhvE9,
 #app-mount .backgroundImage-3LwoVx {
   border-radius: var(--borders-modals) var(--borders-modals) 0 0;
 }
-#app-mount .footer-2gL1pp {
+#app-mount .footer-2gL1pp,
+#app-mount .footer-3ZalXG {
   border-radius: 0 0 var(--borders-modals) var(--borders-modals);
 }
 #app-mount .contentWrapper-3WC1ID,
