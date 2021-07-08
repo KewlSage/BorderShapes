@@ -497,6 +497,7 @@ body .button-2DhvE9,
 #app-mount .vz-markdown-table,
 #app-mount .vz-error-boundary-block,
 #app-mount .vz-updater-update,
+#app-mount .gm-store-card,
 #app-mount .listRow-hutiT_,
 #app-mount .spotify-in-discord-modal-track,
 #app-mount .spotify-in-discord-embed-song-history-grid-row {
@@ -514,8 +515,9 @@ body .button-2DhvE9,
 #app-mount .enableContainer-6E-puu,
 #app-mount .section-foaVwT:first-child,
 #app-mount .vz-updater-top-section-header,
-#app-mount .vz-component-preview-tabs-inner {
-  border-radius: var(--borders-cards) var(--borders-cards) 0 0;
+#app-mount .vz-component-preview-tabs-inner,
+#app-mount .gm-store-card > :nth-child(1) {
+  border-radius: var(--borders-cards) var(--borders-cards) 0 0 !important;
 }
 #app-mount .open-kZ53_U {
   border-radius: var(--borders-cards) var(--borders-cards) 0 0 !important;
