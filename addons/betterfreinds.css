@@ -113,12 +113,12 @@
   background-color: var(--background-primary);
 }
 /* Make The Tab Body a Column */
-.tabBody-3YRQ8W {
+.tabBody-3YRQ8W, .pageContent-1xgXch, .stageSection-3mAD8V  {
   display: flex;
   flex-flow: column nowrap;
 }
 /* Make Active Now Resizeable */
-.nowPlayingColumn-2sl4cE {
+.nowPlayingColumn-2sl4cE, .nowPlayingSidebar-2OFn0o {
   flex: unset; max-width: unset;
   overflow: hidden;
   height: var(--active-now-height); 
