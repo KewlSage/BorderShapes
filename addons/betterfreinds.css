@@ -1,7 +1,6 @@
 
 /* BetterFreinds V4 */
 :root {
-  --borders: 0px;
 /* Toolbar Colors (RGB Only) */
   --toolbar-online-color: rgb(67, 181, 129);
   --toolbar-all-color: rgb(0, 118, 187);
@@ -24,7 +23,7 @@
   text-align: center;
   line-height: 40px;
   height: 40px !important;
-  border-radius: var(--borders);
+  border-radius: var(--borders-cards);
   background-color: var(--background-tertiary);
 }
 /* Add Friend Tab */
@@ -33,7 +32,7 @@
   text-align: center;
   line-height: 40px;
   height: 40px !important;
-  border-radius: var(--borders);
+  border-radius: var(--borders-cards);
   background-color: var(--background-tertiary);
 }
 /* USRBG */
@@ -52,14 +51,10 @@
   background-position: center;
 }
 .userInfo-2zN2z8 {
-  background-color: var(--background-tertiary);
-  border-radius: var(--borders);
+  background-color: var(--background-floating);
+  border-radius: var(--borders-cards);
   padding: 8px;
   margin-left: 6px;
-}
-/* Buttons */
-.actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE {
-  border-radius: var(--borders);
 }
 /* Fuck Borders */
 .peopleListItem-2nzedh {
@@ -67,7 +62,11 @@
 }
 /* tajmahal? / Bruh / Why is this here? */
 .userInfo-2zN2z8, .actions-1SQwjn {
-  position: relative; z-index: 1;
+  position: relative;
+  z-index: 1;
+}
+.peopleColumn-29fq28 .userInfo-2zN2z8 {
+  overflow: hidden !important;
 }
 /* Toolbar/Tab Colors */
 #ALL-tab .peopleList-3c4jOR .title-30qZAO {
