@@ -473,6 +473,7 @@ body .button-2DhvE9,
 #app-mount .detailsBlock-FoDTGA,
 #app-mount .enableContainer-2DIT9Q,
 #app-mount .settingsFormItem-103g1I,
+#app-mount .getStartedWrapper-2AGgRZ,
 #app-mount .wrapperBase-x09xGp,
 #app-mount .table-39R0Oe,
 #app-mount .guild-Hq0WWA,
@@ -1040,7 +1041,8 @@ span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12
   clip-path: inset(-100% -100% 0 0);
   border-radius: var(--borders-labels-large);
 }
-#app-mount .moreUsers-7v8yWY {
+#app-mount .moreUsers-7v8yWY,
+#app-mount .stageListenerPill-1RXT2G {
   box-shadow: 0 0 0 4px var(--borders-color-floating);
   border-radius: var(--borders-labels-large);
 }
