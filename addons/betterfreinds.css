@@ -1,0 +1,103 @@
+
+/* BetterFreinds V4 */
+:root{
+--borders: 0px;
+/* Toolbar Colors (RGB Only) */
+--toolbar-online-color: rgb(67, 181, 129);
+--toolbar-all-color: rgb(0, 118, 187);
+--toolbar-addfriend-color: rgb(209, 41, 255);
+--toolbar-pending-color: rgb(250, 166, 26);
+--toolbar-blocked-color: rgb(255, 42, 0);
+--toolbar-text-color: white;
+/* Active Now Tab Height */
+--active-now-height: 35vh;
+/* USRBG/Background Height */
+--friendblockheight: 80px;
+/* Friend Background Vars */ 
+--csbg: var(--bgoff);
+--bgoff: none;
+--bgon: url('https://imgur.com/8twCdCN.jpg');}
+/* Online count */
+.peopleList-3c4jOR .title-30qZAO { 
+font-size: 18px;
+text-align: center;
+line-height: 40px;
+height: 40px !important;
+border-radius: var(--borders);
+background-color: var(--background-tertiary);}
+/* Add Friend Tab */
+[id="ADD_FRIEND-tab"] .header-1-dBpZ  { 
+font-size: 18px;
+text-align: center;
+line-height: 40px;
+height: 40px !important;
+border-radius: var(--borders);
+background-color: var(--background-tertiary);}
+/* USRBG */
+.avatar-3W3CeO.wrapper-3t9DeA:before {
+content: '';
+position: absolute;
+top: -20px; 
+left: -25px;
+min-width: 1585px;
+height: var(--friendblockheight) !important;
+z-index: -1;
+opacity: 0.3;
+background: var(--user-background, var(--csbg));
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
+.userInfo-2zN2z8 {
+background-color: var(--background-tertiary);
+border-radius: var(--borders);
+padding: 8px;
+margin-left: 6px;}
+/* Buttons */
+.actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE {border-radius: var(--borders);}
+/* Fuck Borders */
+.peopleListItem-2nzedh {
+border-top: 0px solid var(--background-modifier-accent);}
+/* tajmahal? / Bruh / Why is this here? */
+.userInfo-2zN2z8, .actions-1SQwjn {position: relative; z-index: 1;}
+/* Toolbar/Tab Colors */
+[id="ALL-tab"] .peopleList-3c4jOR .title-30qZAO {
+color: var(--toolbar-all-color);
+height: var(--friendblockheight)}
+#app-mount [aria-controls='ALL-tab'] {
+order: -1;
+background-color: var(--toolbar-all-color);}
+[id="ONLINE-tab"] .peopleList-3c4jOR .title-30qZAO {
+color: var(--toolbar-online-color);
+height: var(--friendblockheight)}
+#app-mount [aria-controls='ONLINE-tab'] {
+background-color: var(--toolbar-online-color);}
+[id="PENDING-tab"] .peopleList-3c4jOR .title-30qZAO {
+color: var(--toolbar-pending-color);
+height: var(--friendblockheight)}
+#app-mount [aria-controls='PENDING-tab'] {
+background-color: var(--toolbar-pending-color);}
+[id="BLOCKED-tab"] .peopleList-3c4jOR .title-30qZAO {
+color: var(--toolbar-blocked-color);
+height: var(--friendblockheight)}
+#app-mount [aria-controls='BLOCKED-tab'] {
+background-color: var(--toolbar-blocked-color);}
+[id="ADD_FRIEND-tab"] .header-1-dBpZ {
+color: var(--toolbar-addfriend-color);}
+#app-mount [aria-controls='ADD_FRIEND-tab'] {
+background-color: var(--toolbar-addfriend-color) !important;}
+#app-mount .item-3HknzM {color: var(--toolbar-text-color) !important;}
+/* Apply this if you want to hide the Friends title as well */
+.tabBar-ZmDY9v {
+right: 122px; position: relative;
+background-color: var(--background-primary);}
+/* Make The Tab Body a Column */
+.tabBody-3YRQ8W {
+display: flex;
+flex-flow: column nowrap;}
+/* Make Active Now Resizeable */
+.nowPlayingColumn-2sl4cE {
+flex: unset; max-width: unset;
+overflow: hidden;
+height: var(--active-now-height); 
+min-height: var(--active-now-height);
+max-height: var(--active-now-height);}
