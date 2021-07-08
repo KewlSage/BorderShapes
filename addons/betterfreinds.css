@@ -73,6 +73,9 @@
   color: var(--toolbar-all-color);
   height: var(--friendblockheight);
 }
+#app-mount [aria-controls='/library-tab'] {
+  background-color: var(--toolbar-all-color) !important;
+}
 #app-mount [aria-controls='ALL-tab'] {
   order: -1;
   background-color: var(--toolbar-all-color);
