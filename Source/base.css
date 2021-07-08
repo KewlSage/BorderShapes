@@ -184,7 +184,9 @@ body .button-2DhvE9,
 #app-mount .channelTabs-newTab {
   border-radius: var(--borders-buttons-circle) !important;
 }
-
+#app-mount .contextMenuContainer-2HlOMK foreignObject[mask="url(#svg-mask-channel-call-control-button)"] {
+  mask: none;
+}
   /*-----------------------------------------*/
  /*-----<Switching Stuff Border Shapes>-----*/
 /*-----------------------------------------*/
@@ -415,6 +417,7 @@ body .button-2DhvE9,
 #app-mount .overlayTitle-8IcS01,
 #app-mount .root-2IyrUe,
 #app-mount .container-jSV3OF,
+#app-mount .container-O91r7V,
 #app-mount .background-1QDuV2,
 #app-mount .fieldList-21DyL8,
 #app-mount .accountList-33MS45,
@@ -774,6 +777,8 @@ rect[mask*="typing"] {
 #app-mount .voiceAvatar-14IynY,
 #app-mount .ringingIncoming-38YcLn:after,
 #app-mount .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after,
+#app-mount .outerContainer-3FfmPk,
+#app-mount .innerContainer-1llEA-,
 #app-mount .embedAuthorIcon--1zR3L,
 #app-mount .avatar-3bWpYy,
 #app-mount .avatarMasked-3y6o4j,
@@ -870,6 +875,7 @@ span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12
 #app-mount .dot-14Jva_,
 #app-mount .circle-1nK_79,
 #app-mount .dot-14zbHU,
+#app-mount .audienceVoiceUserIconContainer-29oflP,
 #app-mount .toast-icon,
 #app-mount .bd-server-icon,
 #app-mount .bd-server-count-dot,
