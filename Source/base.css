@@ -981,7 +981,7 @@ rect[mask*="typing"] {
 #app-mount .badge-_BgAUQ,
 #app-mount .price-NUANu6,
 #app-mount .bd-server-tag,
-#app-mount [vz-previews] .vz-addon-card-previews-empty-text
+#app-mount [vz-previews] .vz-addon-card-previews-empty-text,
 #app-mount .gm-store-card > :nth-child(2) {
   border-radius: var(--borders-labels-large) !important;
 }
