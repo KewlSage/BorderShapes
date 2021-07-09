@@ -693,72 +693,49 @@ body .button-2DhvE9,
 /*--------------------------------------*/
 
 #app-mount .wrapper-3t9DeA foreignObject,
-#app-mount .avatarHint-2A3RNb foreignObject,
-#app-mount .wrapper-2QE8vf foreignObject,
-#app-mount .row-1c01mR foreignObject {
+#app-mount .avatarHint-2A3RNb foreignObject {
   -webkit-mask: none !important;
   mask: none !important;
   border-radius: var(--borders-avatars);
 }
 
-#app-mount .wrapper-3t9DeA rect,
-#app-mount .avatarHint-2A3RNb rect,
-#app-mount .wrapper-2QE8vf rect,
-#app-mount .row-1c01mR rect {
+#app-mount .wrapper-3t9DeA rect {
   x: calc(100% - 8px);
   y: calc(50% - 4px);
   width: 8px;
   height: 8px;
 }
 
-#app-mount .wrapper-3t9DeA rect[mask*="mobile"],
-#app-mount .avatarHint-2A3RNb rect[mask*="mobile"],
-#app-mount .wrapper-2QE8vf rect[mask*="mobile"],
-#app-mount .row-1c01mR rect[mask*="mobile"] {
+#app-mount .wrapper-3t9DeA rect[mask*="mobile"] {
   height: 14px;
   y: calc(50% - 7px);
 }
 
-#app-mount .wrapper-3t9DeA rect[width="16"],
-#app-mount .avatarHint-2A3RNb rect[width="16"],
-#app-mount .wrapper-2QE8vf rect[width="16"],
-#app-mount .row-1c01mR rect[width="16"] {
+#app-mount .wrapper-3t9DeA rect[width="16"] {
   x: calc(100% - 12px);
-  y: calc(50% - 6px);
+  y: calc(75% - 6px);
   width: 12px;
   height: 12px;
 }
 
-#app-mount .wrapper-3t9DeA rect[width="16"][mask*="mobile"],
-#app-mount .avatarHint-2A3RNb rect[width="16"][mask*="mobile"],
-#app-mount .wrapper-2QE8vf rect[width="16"][mask*="mobile"],
-#app-mount .row-1c01mR rect[width="16"][mask*="mobile"] {
+#app-mount .wrapper-3t9DeA rect[width="16"][mask*="mobile"] {
   height: 18px;
-  y: calc(50% - 9px);
+  y: calc(75% - 9px);
 }
 
-#app-mount .wrapper-3t9DeA rect[width="24"],
-#app-mount .avatarHint-2A3RNb rect[width="24"],
-#app-mount .wrapper-2QE8vf rect[width="24"],
-#app-mount .row-1c01mR rect[width="24"] {
+#app-mount .wrapper-3t9DeA rect[width="24"] {
   x: calc(100% - 18px);
-  y: calc(50% - 9px);
+  y: calc(75% - 9px);
   width: 18px;
   height: 18px;
 }
 
-#app-mount .wrapper-3t9DeA rect[width="24"][mask*="mobile"],
-#app-mount .avatarHint-2A3RNb rect[width="24"][mask*="mobile"],
-#app-mount .wrapper-2QE8vf rect[width="24"][mask*="mobile"],
-#app-mount .row-1c01mR rect[width="24"][mask*="mobile"] {
+#app-mount .wrapper-3t9DeA rect[width="24"][mask*="mobile"] {
   height: 27px;
-  y: calc(50% - 13.5px);
+  y: calc(75% - 13.5px);
 }
 
-#app-mount .wrapper-3t9DeA .dots-3Bkt3k,
-#app-mount .avatarHint-2A3RNb .dots-3Bkt3k,
-#app-mount .wrapper-2QE8vf .dots-3Bkt3k,
-#app-mount .row-1c01mR .dots-3Bkt3k {
+#app-mount .wrapper-3t9DeA .dots-3Bkt3k {
    display: none;
 }
 
@@ -777,44 +754,21 @@ rect[mask*="typing"] {
 #app-mount .voiceAvatar-14IynY,
 #app-mount .ringingIncoming-38YcLn:after,
 #app-mount .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after,
+#app-mount .avatarUploaderInner-3UNxY3.avatarUploaderInner-Oiob_P,
 #app-mount .outerContainer-3FfmPk,
 #app-mount .innerContainer-1llEA-,
 #app-mount .embedAuthorIcon--1zR3L,
-#app-mount .avatar-3bWpYy,
 #app-mount .avatarMasked-3y6o4j,
-#app-mount .avatar-37jOim,
 #app-mount .avatarHint-2A3RNb,
 #app-mount .avatarContainer-28iYmV,
+#app-mount .avatar-3bWpYy,
+#app-mount .avatar-37jOim,
 #app-mount .avatar-2fD4wn,
 #app-mount .avatar-3Bhz0p,
-#app-mount .avatar-1BDn8e{
-   border-radius: var(--borders-avatars);
-}
-
-span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12nwcw {
-   overflow: hidden;
-}
-
-#app-mount .avatar-2PN2-j,
-#app-mount .avatar-37jOim,
-#app-mount .avatarUploaderInner-Oiob_P {
-   border: 1.5px solid var(--background-floating);
-   background-color: var(--background-primary);
-   border-radius: var(--borders-avatars);
-}
-
-#app-mount .avatarHint-2A3RNb {
-   left: 0px;
-   top: 0px;  
-   width: 83px;
-   height: 83px;
-}
-
+#app-mount .avatar-1BDn8e,
 #app-mount .avatar-AvHqJA,
 #app-mount .avatar-1uQSZT {
-  border: 3px solid var(--background-floating);
-  background-color: var(--background-primary);
-  border-radius: var(--borders-avatars);
+   border-radius: var(--borders-avatars);
 }
 
   /*-------------------------------*/
