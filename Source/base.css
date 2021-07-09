@@ -768,8 +768,9 @@ rect[mask*="typing"] {
 #app-mount .avatar-3Bhz0p,
 #app-mount .avatar-1BDn8e,
 #app-mount .avatar-AvHqJA,
-#app-mount .avatar-1uQSZT {
-   border-radius: var(--borders-avatars);
+#app-mount .avatar-1uQSZT,
+#app-mount .gm-store-card .title-31JmR4 img {
+   border-radius: var(--borders-avatars) !important;
 }
 
   /*-------------------------------*/
@@ -980,7 +981,8 @@ rect[mask*="typing"] {
 #app-mount .badge-_BgAUQ,
 #app-mount .price-NUANu6,
 #app-mount .bd-server-tag,
-#app-mount [vz-previews] .vz-addon-card-previews-empty-text {
+#app-mount [vz-previews] .vz-addon-card-previews-empty-text
+#app-mount .gm-store-card > :nth-child(2) {
   border-radius: var(--borders-labels-large) !important;
 }
 #app-mount .lowerBadge-29hYVK .base-PmTxvP,
