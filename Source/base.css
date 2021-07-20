@@ -595,8 +595,11 @@ body .button-2DhvE9,
 #app-mount .qi-image-img {
   border-radius: var(--borders-media);
 }
-#app-mount .roundedMask-3rB_-f foreignObject {
+#app-mount .roundedMask-3rB_-f foreignObject,
+#app-mount .assetWrapperMasked-2tj_Bb,
+#app-mount .inspectedIndicator-59EII8 {
   mask: none;
+  -webkit-mask: none;
   border-radius: var(--borders-media);
 }
 #app-mount .hero-EvfTTA,
