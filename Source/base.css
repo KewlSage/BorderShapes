@@ -699,7 +699,8 @@ body .button-2DhvE9,
 #app-mount .wrapper-3t9DeA foreignObject,
 #app-mount .avatarHint-2A3RNb foreignObject,
 #app-mount .avatarContainerMasked-PIJ-3L foreignObject,
-#app-mount .callAvatarMask-1SLlRi foreignObject {
+#app-mount .callAvatarMask-1SLlRi foreignObject,
+#app-mount .viewer-sEl8Uz {
   -webkit-mask: none !important;
   mask: none !important;
   border-radius: var(--borders-avatars);
