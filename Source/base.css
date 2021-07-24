@@ -703,7 +703,7 @@ body .button-2DhvE9,
  /*-----<Avatar Stuff Border Shapes>-----*/
 /*--------------------------------------*/
 
-#app-mount .wrapper-3t9DeA foreignObject:not([mask^="url(#svg-mask-avatar-status"]),
+#app-mount .wrapper-3t9DeA foreignObject,
 #app-mount .avatarHint-2A3RNb foreignObject,
 #app-mount .avatarContainerMasked-PIJ-3L foreignObject,
 #app-mount .callAvatarMask-1SLlRi foreignObject,
