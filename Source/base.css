@@ -163,7 +163,8 @@ body .button-2DhvE9,
   border-radius: var(--borders-buttons-rounded) var(--borders-buttons-rounded) 0 0;
 }
 #app-mount .controlButton-2MhVEL foreignObject {
-  mask: none;
+  -webkit-mask: none;
+          mask: none;
   border-radius: var(--borders-buttons-rounded);
 }
 #app-mount .splashBackground-1FRCko::before,
@@ -185,7 +186,8 @@ body .button-2DhvE9,
   border-radius: var(--borders-buttons-circle) !important;
 }
 #app-mount .contextMenuContainer-2HlOMK foreignObject[mask="url(#svg-mask-channel-call-control-button)"] {
-  mask: none;
+  -webkit-mask: none;
+          mask: none;
 }
   /*-----------------------------------------*/
  /*-----<Switching Stuff Border Shapes>-----*/
@@ -508,7 +510,8 @@ body .button-2DhvE9,
   border-radius: var(--borders-cards) !important;
 }
 #app-mount .sticker-2cpdZp foreignObject {
-  mask: none;
+  -webkit-mask: none;
+          mask: none;
   border-radius: var(--borders-cards);
 }
 #app-mount .connectionHeader-2MDqhu,
@@ -598,8 +601,8 @@ body .button-2DhvE9,
 #app-mount .roundedMask-3rB_-f foreignObject,
 #app-mount .assetWrapperMasked-2tj_Bb,
 #app-mount .inspectedIndicator-59EII8 {
-  mask: none;
   -webkit-mask: none;
+          mask: none;
   border-radius: var(--borders-media);
 }
 #app-mount .hero-EvfTTA,
@@ -641,7 +644,8 @@ body .button-2DhvE9,
 #app-mount .guildIcon-3h-1IH,
 #app-mount [mask="url(#svg-mask-squircle)"],
 #app-mount .popout-server-search .image-33JSyf {
-  mask: none;
+  -webkit-mask: none;
+          mask: none;
   border-radius: var(--borders-servers-default);
   transition: 0.1s ease-out;
 }
@@ -667,7 +671,8 @@ body .button-2DhvE9,
   border-radius: var(--borders-servers-default);
 }
 #app-mount .avatarMask-2SqW1n foreignObject {
-  mask: none;
+  -webkit-mask: none;
+          mask: none;
   border-radius: var(--borders-servers-default);
 }
 #app-mount .avatarMask-2SqW1n,
@@ -696,13 +701,13 @@ body .button-2DhvE9,
  /*-----<Avatar Stuff Border Shapes>-----*/
 /*--------------------------------------*/
 
-#app-mount .wrapper-3t9DeA foreignObject,
+#app-mount .wrapper-3t9DeA foreignObject:not([mask^="url(#svg-mask-avatar-status"]),
 #app-mount .avatarHint-2A3RNb foreignObject,
 #app-mount .avatarContainerMasked-PIJ-3L foreignObject,
 #app-mount .callAvatarMask-1SLlRi foreignObject,
 #app-mount .viewer-sEl8Uz {
   -webkit-mask: none !important;
-  mask: none !important;
+          mask: none !important;
   border-radius: var(--borders-avatars);
 }
 
@@ -743,12 +748,12 @@ body .button-2DhvE9,
 }
 
 #app-mount .wrapper-3t9DeA .dots-3Bkt3k {
-   display: none;
+  display: none;
 }
 
 #app-mount .avatarMasked-3y6o4j {
-   mask: none;
-   -webkit-mask: none;
+  -webkit-mask: none;
+          mask: none;
 }
 
 rect[mask*="typing"] {
@@ -779,7 +784,7 @@ rect[mask*="typing"] {
 #app-mount .card-x5zW6z .iconWrapper-eK7GO6,
 #app-mount .card-x5zW6z .icon-0jmVrJ,
 #app-mount .gm-store-card .title-31JmR4 img {
-   border-radius: var(--borders-avatars) !important;
+  border-radius: var(--borders-avatars) !important;
 }
 
   /*-------------------------------*/
@@ -882,7 +887,8 @@ rect[mask*="typing"] {
   border-radius: var(--borders-icons-default);
 }
 #app-mount .buttonContainer-28fw2U foreignObject {
-  mask: none;
+  -webkit-mask: none;
+          mask: none;
 }
 #app-mount .notificationDot-18QulZ {
   box-shadow: 0 0 0 2px var(--borders-color-textarea);
@@ -1026,7 +1032,8 @@ rect[mask*="typing"] {
   border-radius: var(--borders-labels-large);
 }
 #app-mount .stickerCategory-3Yz7vN foreignObject {
-  mask: none;
+  -webkit-mask: none;
+          mask: none;
 }
 #app-mount .stickerCategoryShopBadge-1_oCG0 {
   box-shadow: 0 0 0 3px var(--borders-color-tertiary);
