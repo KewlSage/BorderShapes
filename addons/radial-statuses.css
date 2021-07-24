@@ -104,3 +104,7 @@
   -webkit-transform: translateY(0%) !important;
   transform: translateY(0%) !important;
 }
+
+#app-mount .wrapper-3t9DeA svg.mask-1l8v16 > foreignObject {
+  border-radius: 0% !important;
+}
