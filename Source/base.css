@@ -53,7 +53,6 @@ body .button-2DhvE9,
 #app-mount .inner-2Y6JuD,
 #app-mount .connectionDelete-2Odoln,
 #app-mount .diversityEmojiItem-L6_IXw,
-#app-mount .emojiItem-14v6tW.emojiItemSelected-1aLkfV,
 #app-mount .gif-1TcNIB,
 #app-mount .spoilerWarning-2aAZq1,
 #app-mount .categoryFade-2ybR1J,
@@ -591,6 +590,7 @@ body .button-2DhvE9,
 #app-mount .overlappingBorder-1-XPGl,
 #app-mount .storePaginationImg-2P8SMo,
 #app-mount .assetWrapper-2Qw_5D,
+#app-mount .stickerAsset-13j1W0,
 #app-mount .bd-changelog-modal video,
 #app-mount [vz-previews] .vz-addon-card-previews-empty,
 #app-mount [vz-previews] .vz-addon-card .smallCarousel-2e0IQc,
@@ -659,6 +659,7 @@ body .button-2DhvE9,
 #app-mount .filledIcon-2eb7eA,
 #app-mount .guildIcon-nSLcmS,
 #app-mount .guildIcon-1F8t_p,
+#app-mount .guildIcon-1zxZMV,
 #app-mount .guildsError-b7zR5H,
 #app-mount .circleIconButton-1QV--U,
 #app-mount .bd-server-icon {
@@ -1096,7 +1097,7 @@ rect[mask*="typing"] {
 #app-mount .role-1P70N6,
 #app-mount .roleColor-fHISxl,
 #app-mount .member-perm {
-  border-radius: var(--borders-role-outlines);
+  border-radius: var(--borders-role-outlines) !important;
 }
 #app-mount .roleCircle-3xAZ1j,
 #app-mount .popoutRoleDot-1XPcoA,
