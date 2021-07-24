@@ -1194,3 +1194,6 @@ body .floating-window,
 #app-mount .powercord-quickcss-editor-settings {
   border-radius: var(--borders-code-editors);
 }
+#app-mount .StatusEverywhere-avatar-chatAvatar rect[mask*="typing"] {
+    width: calc(100% - 9px) !important;
+}
