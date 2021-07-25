@@ -108,3 +108,6 @@
 #app-mount .wrapper-3t9DeA svg.mask-1l8v16 > foreignObject {
   border-radius: 0% !important;
 }
+#app-mount .StatusEverywhere-avatar-chatAvatar.wrapper-3t9DeA foreignObject[mask*=mobile] {
+  width: calc(100% + 3px) !important;
+}
