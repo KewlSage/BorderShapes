@@ -649,7 +649,7 @@ body .button-2DhvE9,
   border-radius: var(--borders-servers-default);
   transition: 0.1s ease-out;
 }
-#app-mount .avatarUploaderInner-3UNxY3,
+#app-mount .avatarUploaderInner-3UNxY3 :not(.banner-hcPdsd),
 #app-mount .iconSizeMedium-2OqPjI,
 #app-mount .iconActiveMedium-1UaEIR,
 #app-mount .iconActiveLarge-2nzn9z,
@@ -783,6 +783,7 @@ rect[mask*="typing"] {
 #app-mount .avatar-AvHqJA,
 #app-mount .avatar-1uQSZT,
 #app-mount .viewers-2Dq-Mk .overflow-1ExsZm,
+#app-mount .StatusEverywhere-avatar-userPopout,
 #app-mount .card-x5zW6z .iconWrapper-eK7GO6,
 #app-mount .card-x5zW6z .icon-0jmVrJ,
 #app-mount .gm-store-card .title-31JmR4 img {
@@ -819,6 +820,7 @@ rect[mask*="typing"] {
 #app-mount .spinner-3lb-NU,
 #app-mount .wrapper-pZmgj4a,
 #app-mount .emptyChannelIcon-cc932w,
+#app-mount .iconWrapper-L3hQuc,
 #app-mount .checkmark-3rush5,
 #app-mount .houseLogoWrapper-3XZ6yo,
 #app-mount .quizResultLogoWrapper-1A5Eb1,
