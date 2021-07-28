@@ -725,6 +725,18 @@ body .button-2DhvE9,
   y: calc(50% - 7px);
 }
 
+#app-mount .wrapper-3t9DeA rect[width="8"] {
+  x: calc(100% - 6px);
+  y: calc(50% - 3px);
+  width: 6px;
+  height: 6px;
+}
+
+#app-mount .wrapper-3t9DeA rect[width="8"][mask*="mobile"] {
+  height: 11px;
+  y: calc(50% - 5.5px);
+}
+
 #app-mount .wrapper-3t9DeA rect[width="16"] {
   x: calc(100% - 12px);
   y: calc(75% - 6px);
