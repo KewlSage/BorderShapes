@@ -323,6 +323,7 @@ body .button-2DhvE9,
 #app-mount .container-1JlpAi,
 #app-mount .container-2Uhd6d,
 #app-mount .container-3XJ8ns,
+#app-mount .container-7uh5fX,
 #app-mount .attachPopout-36hjtN,
 #app-mount .quickSelectPopout-X1hvgV,
 #app-mount .popout-6p6fkZ,
@@ -725,6 +726,18 @@ body .button-2DhvE9,
   y: calc(50% - 7px);
 }
 
+#app-mount .wrapper-3t9DeA rect[width="6"] {
+  x: calc(100% - 5px);
+  y: calc(50% - 2.5px);
+  width: 5px;
+  height: 5px;
+}
+
+#app-mount .wrapper-3t9DeA rect[width="6"][mask*="mobile"] {
+  height: 8px;
+  y: calc(50% - 4px);
+}
+
 #app-mount .wrapper-3t9DeA rect[width="8"] {
   x: calc(100% - 6px);
   y: calc(50% - 3px);
@@ -794,6 +807,8 @@ rect[mask*="typing"] {
 #app-mount .avatar-1BDn8e,
 #app-mount .avatar-AvHqJA,
 #app-mount .avatar-1uQSZT,
+#app-mount .appAvatar-3bgkQ9,
+#app-mount .threadMessageAccessoryAvatar-2XWCxw,
 #app-mount .viewers-2Dq-Mk .overflow-1ExsZm,
 #app-mount .StatusEverywhere-avatar-userPopout,
 #app-mount .card-x5zW6z .iconWrapper-eK7GO6,
@@ -1000,6 +1015,8 @@ rect[mask*="typing"] {
 #app-mount .bar-30k2ka,
 #app-mount .blob-2w7iIK,
 #app-mount .content-1o0f9g,
+#app-mount .container-3hZ-gs,
+#app-mount .container-2I9Hud,
 #app-mount .wrapper-2tAnRe,
 #app-mount .keybindShortcut-1BD6Z1 span,
 #app-mount .featureStickers-Pc_FBx .fakeBuyButton-3XrfxO,
@@ -1180,6 +1197,9 @@ body .tooltip-2QfLtc,
 #app-mount .sidebar-2K8pFh,
 #app-mount .notice-3bPHh- {
   border-radius: var(--borders-sidebar-and-notices) 0 0;
+}
+#app-mount .threadSidebar-1o3BTy {
+  border-radius: var(--borders-sidebar-and-notices) 0 0 ;
 }
 #app-mount .ring-13rgEW,
 #app-mount .focusRing-2NImfT {
