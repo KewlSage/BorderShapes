@@ -1201,6 +1201,9 @@ body .tooltip-2QfLtc,
 #app-mount .threadSidebar-1o3BTy {
   border-radius: var(--borders-sidebar-and-notices) 0 0 ;
 }
+#app-mount .chat-3bRxxu.threadSidebarOpen-vdkwIh {
+  border-radius: 0 var(--borders-sidebar-and-notices) 0 0;
+}
 #app-mount .ring-13rgEW,
 #app-mount .focusRing-2NImfT {
   border-radius: var(--borders-navigation-highlight);
