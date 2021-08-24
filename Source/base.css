@@ -262,7 +262,7 @@ body .button-2DhvE9,
 #app-mount .searchBar-3dMhjb,
 #app-mount .searchBar-5di9mG,
 #app-mount .channelTextArea-2VhZ6z,
-#app-mount .scrollableContainer-2NUZem,
+#app-mount .scrollableContainer-2NUZem:not(.hasConnectedBar-1MrFne),
 #app-mount .search-1iTphC .searchBox-2_mAlO,
 #app-mount .search-2oPWTC .DraftEditor-root .DraftEditor-editorContainer,
 #app-mount .searchFilter-2ESiM3,
@@ -278,8 +278,12 @@ body .button-2DhvE9,
 #app-mount #pubslayer input {
   border-radius: var(--borders-inputs);
 }
-#app-mount .container-2fRDfG + .scrollableContainer-2NUZem {
+#app-mount .container-2fRDfG + .scrollableContainer-2NUZem,
+#app-mount .scrollableContainer-2NUZem.hasConnectedBar-1MrFne {
   border-radius: 0 0 var(--borders-inputs) var(--borders-inputs);
+}
+#app-mount .attachedBars-tZDmyV {
+  border-radius: var(--borders-inputs) var(--borders-inputs) 0 0;
 }
 
   /*---------------------------------*/
@@ -437,6 +441,7 @@ body .button-2DhvE9,
 #app-mount .option-n0icdO,
 #app-mount .card-3AyPWq,
 #app-mount .card-3DjzTQ,
+#app-mount .container-3WrP6S,
 #app-mount .card-3Qj_Yx,
 #app-mount .card-2Mz_4z,
 #app-mount .activeGame-14JI7o,
@@ -607,7 +612,8 @@ body .button-2DhvE9,
   border-radius: var(--borders-media);
 }
 #app-mount .hero-EvfTTA,
-#app-mount .headerImage-3X1tyY {
+#app-mount .headerImage-3X1tyY,
+#app-mount .headerImage-1vDSE3 {
   border-radius: 0;
   transform: scale(1.01);
   clip-path: inset(0.5% round var(--borders-media));
@@ -663,6 +669,7 @@ body .button-2DhvE9,
 #app-mount .guildIcon-1zxZMV,
 #app-mount .guildsError-b7zR5H,
 #app-mount .circleIconButton-1QV--U,
+#app-mount .iconContainer-27DuH-,
 #app-mount .bd-server-icon {
   border-radius: var(--borders-servers-default);
 }
@@ -794,6 +801,7 @@ rect[mask*="typing"] {
 #app-mount .ringingIncoming-38YcLn:after,
 #app-mount .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after,
 #app-mount .avatarUploaderInner-3UNxY3.avatarUploaderInner-Oiob_P,
+#app-mount .avatarUploaderInner-3UNxY3.avatarUploaderInner-KkYu-S,
 #app-mount .outerContainer-3FfmPk,
 #app-mount .innerContainer-1llEA-,
 #app-mount .embedAuthorIcon--1zR3L,
@@ -877,6 +885,7 @@ rect[mask*="typing"] {
 #app-mount .circle-1nK_79,
 #app-mount .dot-14zbHU,
 #app-mount .audienceVoiceUserIconContainer-29oflP,
+#app-mount .fakeActivityIcon-30ykyj,
 #app-mount .toast-icon,
 #app-mount .bd-server-icon,
 #app-mount .bd-server-count-dot,
@@ -940,6 +949,7 @@ rect[mask*="typing"] {
 #app-mount .assetsSmallImage-3_3Bzj {
   top: 73%;
   left: 73%;
+  border-radius: var(--borders-icons-small);
 }
 #app-mount .activitySectionAssets-32WyHu .smallImage-1p6VYD {
   background-color: var(--borders-color-secondary);
