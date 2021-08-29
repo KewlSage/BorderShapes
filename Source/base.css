@@ -1187,6 +1187,12 @@ rect[mask*="typing"] {
 #app-mount .vz-markdown-code-inline {
   border-radius: var(--borders-codes);
 }
+#app-mount .textContainer-C0szpm {
+  border-radius: var(--borders-codes) var(--borders-codes) 0 0;
+}
+#app-mount .textContainer-C0szpm + .footer-2yA7Ep {
+  border-radius: 0 0 var(--borders-codes) var(--borders-codes);
+}
 #app-mount .before_inlineCode-1G9rTK {
   border-radius: var(--borders-codes) 0 0 var(--borders-codes);
 }
