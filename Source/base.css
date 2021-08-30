@@ -605,12 +605,17 @@ body .button-2DhvE9,
 #app-mount .storePaginationImg-2P8SMo,
 #app-mount .assetWrapper-2Qw_5D,
 #app-mount .stickerAsset-13j1W0,
+#app-mount .suggestedExpression-3HUIrd > svg,
+#app-mount .suggestedExpression-3HUIrd,
 #app-mount .bd-changelog-modal video,
 #app-mount [vz-previews] .vz-addon-card-previews-empty,
 #app-mount [vz-previews] .vz-addon-card .smallCarousel-2e0IQc,
 #app-mount [vz-previews] .vz-addon-card .smallCarousel-2e0IQc .smallCarouselItem-1rfKEJ,
 #app-mount .qi-image-img {
   border-radius: var(--borders-media);
+}
+#app-mount .suggestedExpression-3HUIrd > svg > foreignObject {
+  mask: none;
 }
 #app-mount .roundedMask-3rB_-f foreignObject,
 #app-mount .assetWrapperMasked-2tj_Bb,
@@ -1223,7 +1228,8 @@ rect[mask*="typing"] {
 body .tooltip-2QfLtc,
 #app-mount .subscribeTooltipWrapper-1JoUuw,
 #app-mount .tooltip-1_vJJI,
-#app-mount .tooltip-3oByQd {
+#app-mount .tooltip-3oByQd,
+#app-mount .containerBackground-LlUax5 {
   border-radius: var(--borders-tooltips);
 }
 #app-mount ::-webkit-scrollbar,
