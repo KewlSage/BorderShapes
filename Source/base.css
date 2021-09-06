@@ -286,6 +286,10 @@ body .button-2DhvE9,
 #app-mount .attachedBars-tZDmyV {
   border-radius: var(--borders-inputs) var(--borders-inputs) 0 0;
 }
+#app-mount .replyBar-1YLQ2F,
+#app-mount .threadSuggestionBar-2ufK2Z {
+  background-color: transparent;
+}
 
   /*---------------------------------*/
  /*-----<Windows Border Shapes>-----*/
