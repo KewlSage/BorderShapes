@@ -73,3 +73,9 @@
 #app-mount .wrapper-3t9DeA svg.mask-1l8v16 > foreignObject {
   border-radius: 0% !important;
 }
+
+/*this could be a mess*/
+#app-mount .wrapper-3t9DeA .cursorDefault-dsQJ1n[x="14.5"][y="17"] rect {
+  x: -14.5px !important;
+  y: -17 !important;
+}
