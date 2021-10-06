@@ -1,3 +1,22 @@
+@import url("https://therealgwjosh.github.io/BannerBG/src/main.css"); 
+
+/* BorderShapes Support Server [Server ID (859835827877838868)] */
+[aria-label*="BorderShapes"] {
+
+	--BannerBG-Header-Height: 100px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://media.discordapp.net/attachments/861776833190821918/885558176630603796/Server-Invite-Background.png?width=767&height=431") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
   /*--------------------------*/
  /*-----<Root Variables>-----*/
 /*--------------------------*/
