@@ -737,11 +737,11 @@ body .button-2DhvE9,
   border-radius: var(--borders-servers-interactive);
   transition: 0.1s ease-out;
 }
-#app-mount .folder-1hbNCn,
-#app-mount .folderIconWrapper-1_bOZe {
+#app-mount .folder-2w6LX1,
+#app-mount .folderIconWrapper-1Ml_1q {
   border-radius: calc(var(--borders-folders) - 10px);
 }
-#app-mount .expandedFolderBackground-1cujaW {
+#app-mount .expandedFolderBackground-3ZDF05 {
   border-radius: var(--borders-folders);
 }
 
