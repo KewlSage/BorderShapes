@@ -1094,22 +1094,22 @@ rect[mask*="typing"] {
 #app-mount .upperBadge-2XnnGB .base-PmTxvP,
 #app-mount .upperLeftBadge-e35IpL .base-PmTxvP {
   box-shadow: 0 0 0 4px var(--borders-color-tertiary);
-  border-radius: var(--borders-labels-large);
+  border-radius: var(--borders-labels-small) !important;
 }
 #app-mount [role="group"] .lowerBadge-29hYVK .base-PmTxvP {
   box-shadow: 0 0 0 4px var(--borders-color-secondary);
   clip-path: inset(-100% 0 0 -100%);
-  border-radius: var(--borders-labels-large);
+  border-radius: var(--borders-labels-small) !important;
 }
 #app-mount [role="group"] .upperBadge-2XnnGB .base-PmTxvP {
   box-shadow: 0 0 0 4px var(--borders-color-secondary);
   clip-path: inset(-100% 0 -100% -100%);
-  border-radius: var(--borders-labels-large);
+  border-radius: var(--borders-labels-small) !important;
 }
 #app-mount [role="group"] .unread-badge .base-PmTxvP {
   box-shadow: 0 0 0 4px var(--borders-color-secondary);
   clip-path: inset(-100% -100% 0 0);
-  border-radius: var(--borders-labels-large);
+  border-radius: var(--borders-labels-small) !important;
 }
 #app-mount .moreUsers-7v8yWY,
 #app-mount .stageListenerPill-1RXT2G {
