@@ -18,6 +18,7 @@
 
 #app-mount button,
 #app-mount .layout-2DM8Md,
+#app-mount .holidayPromotionSelectedBackground-181xIv,
 #app-mount .content-1x5b-n,
 #app-mount .content-1Wq3SX,
 #app-mount .peopleListItem-2nzedh:hover,
@@ -502,6 +503,8 @@ body .button-2DhvE9,
 #app-mount .bumpBox-1r5p3c,
 #app-mount .paymentPane-3bwJ6A,
 #app-mount .tier-2pEkRl,
+#app-mount .giftContainer-TKat2X,
+#app-mount .holidayHeroContainer-252amJ,
 #app-mount .expandedInfo-3kfShd,
 #app-mount .rowWrapper-2fB6P0,
 #app-mount .row-1bU71H,
@@ -1056,6 +1059,7 @@ rect[mask*="typing"] {
 /*------------------------------------*/
 
 #app-mount .base-PmTxvP,
+#app-mount .liveIndicator-3FNmiB[style="border-radius: 16px;"],
 #app-mount .wrapper-232cHJ,
 #app-mount .bar-30k2ka,
 #app-mount .blob-2w7iIK,
@@ -1078,6 +1082,15 @@ rect[mask*="typing"] {
 #app-mount [vz-previews] .vz-addon-card-previews-empty-text,
 #app-mount .gm-store-card > :nth-child(2) {
   border-radius: var(--borders-labels-large) !important;
+}
+#app-mount .liveIndicator-3FNmiB[style="border-radius: 0px 16px 16px 0px;"]{
+  border-radius: 0px var(--borders-labels-large) var(--borders-labels-large) 0px !important;
+}
+#app-mount .base-PmTxvP.baseShapeRoundLeft-ym85l3{
+  border-radius: var(--borders-labels-large) 0px 0px var(--borders-labels-large) !important;
+}
+#app-mount .liveIndicator-3FNmiB .base-PmTxvP{
+  border-radius: 0 !important;
 }
 #app-mount .lowerBadge-29hYVK .base-PmTxvP,
 #app-mount .upperBadge-2XnnGB .base-PmTxvP,
