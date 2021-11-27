@@ -933,6 +933,7 @@ rect[mask*="typing"] {
 #app-mount [vz-addon-icon] .label-22pbtT::before,
 #app-mount .vz-updater-update-icon-wrapper,
 #app-mount .ServerFolders-modal .iconSwatch-_78Ghj,
+#app-mount .unownedStickerLockContainer-1awnDf,
 #app-mount .coverWrapper-YAplwJ,
 #app-mount .maximizer-RVu85p {
   border-radius: var(--borders-icons-default) !important;
