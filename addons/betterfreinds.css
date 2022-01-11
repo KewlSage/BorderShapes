@@ -18,7 +18,7 @@
   --bgon: url('https://imgur.com/8twCdCN.jpg');
 }
 /* Online count */
-.peopleList-3c4jOR .title-30qZAO { 
+.peopleList-2VBrVI .title-3XlmeX { 
   font-size: 18px;
   text-align: center;
   line-height: 40px;
@@ -27,7 +27,7 @@
   background-color: var(--background-tertiary);
 }
 /* Add Friend Tab */
-#ADD_FRIEND-tab .header-1-dBpZ { 
+#ADD_FRIEND-tab .header-30YxSJ { 
   font-size: 18px;
   text-align: center;
   line-height: 40px;
@@ -36,7 +36,7 @@
   background-color: var(--background-tertiary);
 }
 /* USRBG */
-.avatar-3W3CeO.wrapper-3t9DeA:before {
+.avatar-2MSPKk.wrapper-1VLyxH:before {
   content: '';
   position: absolute;
   top: -20px; 
@@ -50,26 +50,26 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.userInfo-2zN2z8 {
+.userInfo-2WpsYG {
   background-color: var(--background-floating);
   border-radius: var(--borders-cards);
   padding: 8px;
   margin-left: 6px;
 }
 /* Fuck Borders */
-.peopleListItem-2nzedh {
+.peopleListItem-u6dGxF {
   border-top: 0px solid var(--background-modifier-accent);
 }
 /* tajmahal? / Bruh / Why is this here? */
-.userInfo-2zN2z8, .actions-1SQwjn {
+.userInfo-2WpsYG, .actions-YHvpIT {
   position: relative;
   z-index: 1;
 }
-.peopleColumn-29fq28 .userInfo-2zN2z8 {
+.peopleColumn-1wMU14 .userInfo-2WpsYG {
   overflow: hidden !important;
 }
 /* Toolbar/Tab Colors */
-#ALL-tab .peopleList-3c4jOR .title-30qZAO {
+#ALL-tab .peopleList-2VBrVI .title-3XlmeX {
   color: var(--toolbar-all-color);
   height: var(--friendblockheight);
 }
@@ -80,48 +80,48 @@
   order: -1;
   background-color: var(--toolbar-all-color);
 }
-#ONLINE-tab .peopleList-3c4jOR .title-30qZAO {
+#ONLINE-tab .peopleList-2VBrVI .title-3XlmeX {
   color: var(--toolbar-online-color);
   height: var(--friendblockheight);
 }
 #app-mount [aria-controls='ONLINE-tab'] {
   background-color: var(--toolbar-online-color);
 }
-#PENDING-tab .peopleList-3c4jOR .title-30qZAO {
+#PENDING-tab .peopleList-2VBrVI .title-3XlmeX {
   color: var(--toolbar-pending-color);
   height: var(--friendblockheight);
 }
 #app-mount [aria-controls='PENDING-tab'] {
   background-color: var(--toolbar-pending-color);}
-[id="BLOCKED-tab"] .peopleList-3c4jOR .title-30qZAO {
+[id="BLOCKED-tab"] .peopleList-2VBrVI .title-3XlmeX {
   color: var(--toolbar-blocked-color);
   height: var(--friendblockheight);
 }
 #app-mount [aria-controls='BLOCKED-tab'] {
   background-color: var(--toolbar-blocked-color);
 }
-#ADD_FRIEND-tab .header-1-dBpZ {
+#ADD_FRIEND-tab .header-30YxSJ {
   color: var(--toolbar-addfriend-color);
 }
 #app-mount [aria-controls='ADD_FRIEND-tab'] {
   background-color: var(--toolbar-addfriend-color) !important;
 }
-#app-mount .item-3HknzM {
+#app-mount .item-3mHhwr {
   color: var(--toolbar-text-color) !important;
 }
 /* Apply this if you want to hide the Friends title as well */
-.tabBar-ZmDY9v {
+.tabBar-ra-EuL {
   right: 122px;
   position: relative;
   background-color: var(--background-primary);
 }
 /* Make The Tab Body a Column */
-.tabBody-3YRQ8W, .pageContent-1xgXch, .stageSection-3mAD8V  {
+.tabBody-2dgbAs, .pageContent-1xgXch, .stageSection-3mAD8V  {
   display: flex;
   flex-flow: column nowrap;
 }
 /* Make Active Now Resizeable */
-.nowPlayingColumn-2sl4cE, .nowPlayingSidebar-2OFn0o {
+.nowPlayingColumn-1eCBCN, .nowPlayingSidebar-2OFn0o {
   flex: unset; max-width: unset;
   overflow: hidden;
   height: var(--active-now-height); 
