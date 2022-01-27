@@ -36,6 +36,7 @@
 #app-mount .side-2ur1Qk .item-3XjbnG,
 #app-mount .container-x8Y1ix,
 #app-mount .container-30qY7E,
+#app-mount .category-1PNLoM,
 #app-mount .sizeSmall-2cSMqn,
 #app-mount .sizeMedium-1AC_Sl,
 #app-mount .sizeXlarge-2yFAlZ,
@@ -267,6 +268,7 @@ body .button-1iHNQ2,
 #app-mount .input-3r5zZY,
 #app-mount .searchBar-zdmu7v,
 #app-mount .searchBar-2M9mRP,
+#app-mount .search-3eDkEO,
 #app-mount .channelTextArea-1VQBuV,
 #app-mount .scrollableContainer-15eg7h:not(.hasConnectedBar-1vN2JH),
 #app-mount .search-25t1e9 .searchBox-31Zv9h,
@@ -684,6 +686,7 @@ body .button-1iHNQ2,
 #app-mount .mask-1hlQQ6 foreignObject,
 #app-mount .guildIcon-2SUGiq,
 #app-mount [mask="url(#svg-mask-squircle)"],
+#app-mount .avatarUploaderInner-yEhTv5[style^="background-image: url(\"https://cdn.discordapp.com/icons"],
 #app-mount .popout-server-search .image-33JSyf {
   -webkit-mask: none;
           mask: none;
