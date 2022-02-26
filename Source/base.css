@@ -131,6 +131,7 @@ body .button-1iHNQ2,
 #app-mount .listRow-hutiT_,
 #app-mount .header-145e10 .tab-TRrPC8,
 #app-mount #pubslayer .ui-tab-bar-item,
+#app-mount .ksu-git-info-item,
 #app-mount #permissions-modal-wrapper .role-item {
   border-radius: var(--borders-buttons-rounded) !important;
 }
@@ -521,6 +522,7 @@ body .button-1iHNQ2,
 #app-mount .authBox-1HR6Ha,
 #app-mount .bd-server-card,
 #app-mount .card-x5zW6z,
+#app-mount .video-31SuuY,
 #app-mount .powercord-toast .contents .inner,
 #app-mount .powercord-entities-manage-tabs,
 #app-mount .vz-dashboard-home-features-card,
@@ -532,6 +534,7 @@ body .button-1iHNQ2,
 #app-mount .vz-updater-update,
 #app-mount .gm-store-card,
 #app-mount .kernel-card,
+#app-mount .ksu-card,
 #app-mount .bd-addon-card,
 #app-mount .pc-settings-addon-card,
 #app-mount .pcu-card,
@@ -1265,10 +1268,14 @@ rect[mask*="typing"] {
 #app-mount .tooltip-14MtrL,
 body .tooltip-14MtrL,
 #app-mount .subscribeTooltipWrapper-3ipXtC,
+#app-mount .upsellTooltipWrapper-1wqikQ,
 #app-mount .tooltip-1_vJJI,
 #app-mount .tooltip-16UpTB,
 #app-mount .containerBackground-Ang24O {
   border-radius: var(--borders-tooltips);
+}
+#app-mount .container-JMJRDf{
+  border-radius: var(--borders-tooltips) var(--borders-tooltips) 0 0;
 }
 #app-mount ::-webkit-scrollbar,
 #app-mount ::-webkit-scrollbar-track,
@@ -1291,6 +1298,7 @@ body .tooltip-14MtrL,
 }
 #app-mount .toast,
 body .bd-toast,
+body .pc-notice-container,
 #app-mount .toast-g4bfgI,
 #app-mount .toast-q3Y4wI,
 #app-mount .powercord-toast,
@@ -1300,7 +1308,7 @@ body .bd-toast,
 #app-mount .cumcord-toast,
 #app-mount .xenoLib-notification-content,
 #app-mount .xenoLib-notification-loadbar {
-  border-radius: var(--borders-toasts);
+  border-radius: var(--borders-toasts) !important;
 }
 #app-mount .monaco-editor,
 #app-mount .monaco-editor .overflow-guard {
