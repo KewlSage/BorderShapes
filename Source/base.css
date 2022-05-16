@@ -1321,38 +1321,3 @@ body .floating-window,
 #app-mount .powercord-quickcss-editor-settings {
   border-radius: var(--borders-code-editors);
 }
-
-  /*------------------------------------*/
- /*-------------<BannerBG>-------------*/
-/*------------------------------------*/
-
-:root {
-	--BannerBG-Header-Height: block;
-	--BannerBG-Header-Padding: 16px;
-	--BannerBG-Header-Box-Shadow: revert;	
-	--BannerBG-Server-Banner: block;
-	--BannerBG-Server-Width: block;
-	--BannerBG-Server-Height: block;
-	--BannerBG-Server-Top: block;
-	--BannerBG-Server-Left: block;
-	--BannerBG-Server-Z-Index: block;
-	--BannerBG-Server-Position: block;
-}
-/* BannerBG Main Code */
-.container-1NXEtd .header-3OsQeK {
-	height: var(--BannerBG-Header-Height);
-	padding: var(--BannerBG-Header-Padding);
-	box-shadow: var(--BannerBG-Header-Box-Shadow);
-	align-items: flex-start;
-}
-.container-1NXEtd .header-3OsQeK::before {
-	content: "";
-	position: var(--BannerBG-Server-Position);
-	top: var(--BannerBG-Server-Top);
-	left: var(--BannerBG-Server-Left);
-	z-index: var(--BannerBG-Server-Z-Index);
-	width: var(--BannerBG-Server-Width);
-	height: var(--BannerBG-Server-Height);
-	background: var(--BannerBG-Server-Banner) center/cover no-repeat;
-	-webkit-mask: linear-gradient(var(--background-secondary), transparent);
-}
