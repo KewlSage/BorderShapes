@@ -695,6 +695,9 @@ body .button-1iHNQ2,
   border-radius: var(--borders-servers-default);
   transition: 0.1s ease-out;
 }
+#app-mount .avatar-b5OQ1N[src^="https://cdn.discordapp.com/icons/"]{
+    border-radius: var(--borders-servers-default) !important;
+}
 #app-mount .avatarUploaderInner-yEhTv5 :not(.banner-hcPdsd),
 #app-mount .avatarUploaderInner-yEhTv5.avatarUploaderInner-3SDRO_,
 #app-mount .iconSizeMedium-2vzSua,
