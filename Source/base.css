@@ -15,7 +15,7 @@
  /*-----<Buttons Border Shapes>-----*/
 /*---------------------------------*/
 
-#app-mount button,
+#app-mount button:not(.bd-toolbutton),
 #app-mount .layout-1qmrhw,
 #app-mount .holidayPromotionSelectedBackground-irywjz,
 #app-mount .content-1gYQeQ,
@@ -110,6 +110,7 @@ body .button-1iHNQ2,
 #app-mount .selectGuild-1Ygl76,
 #app-mount .memberRow-1FhJgR,
 #app-mount .exampleRule-3gJ39X,
+#app-mount .tags-3s41VI .pill-3pRQlO,
 #app-mount .fakeButton-3RWbMY,
 #app-mount .bd-button,
 #app-mount .bd-addon-list .bd-card-footer button,
@@ -281,6 +282,7 @@ body .button-1iHNQ2,
 #app-mount .phoneVerificationModal-3OHeBt .field-3rN-Ip,
 #app-mount .gameNameInput-3TuPuA,
 #app-mount .input-3NIgDw,
+#app-mount .headerRow-1MKoR- .mainCard-3KBsBI,
 #app-mount .bd-search-wrapper,
 #app-mount .container-3AL15u,
 #app-mount #pubslayer input {
@@ -519,6 +521,9 @@ body .button-1iHNQ2,
 #app-mount .optionBox-1UOevl,
 #app-mount .qrCode-2R7t9S,
 #app-mount .authBox-1HR6Ha,
+#app-mount .container-2qVG6q.mainCard-3KBsBI,
+#app-mount .sidebarContainer-1kWKqZ > div,
+#app-mount .widgetsContainer-nTESfL > div,
 #app-mount .bd-server-card,
 #app-mount .card-x5zW6z,
 #app-mount .video-31SuuY,
@@ -714,6 +719,7 @@ body .button-1iHNQ2,
 #app-mount .guildsError-b7zR5H,
 #app-mount .circleIconButton-1QV--U,
 #app-mount .iconContainer-6xlTpK,
+#app-mount .guildBreadcrumbIcon-364Xpt,
 #app-mount .bd-server-icon {
   border-radius: var(--borders-servers-default);
 }
