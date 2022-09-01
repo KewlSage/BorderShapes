@@ -762,7 +762,9 @@ body .button-1iHNQ2,
 /*--------------------------------------*/
 
 #app-mount .wrapper-1VLyxH foreignObject,
+#app-mount .wrapper-1VLyxH,
 #app-mount .avatarHint-k7pYop foreignObject,
+#app-mount .avatarHint-2g3Mcd foreignObject,
 #app-mount .avatarContainerMasked-13fYnN foreignObject,
 #app-mount .avatarUploaderInner-yEhTv5[style^="background-image: url(\"https://cdn.discordapp.com/avatars"],
 #app-mount .callAvatarMask-fiNMWy foreignObject,
@@ -770,6 +772,9 @@ body .button-1iHNQ2,
   -webkit-mask: none !important;
           mask: none !important;
   border-radius: var(--borders-avatars);
+}
+#app-mount .avatarHint-2g3Mcd foreignObject {
+    overflow: hidden;
 }
 
 #app-mount .wrapper-1VLyxH rect {
