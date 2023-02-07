@@ -840,7 +840,8 @@ body .button-1iHNQ2,
 }
 
 #app-mount .wrapper-1VLyxH .dots-1BwzZQ,
-#app-mount foreignObject[mask^="url(#svg-mask-avatar"] + circle[fill="black"]{
+#app-mount foreignObject[mask^="url(#svg-mask-avatar"] + circle[fill="black"],
+#app-mount svg[class^="bannerSVGWrapper-"] > mask > circle {
   display: none;
 }
 
