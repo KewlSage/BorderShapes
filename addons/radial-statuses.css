@@ -98,7 +98,7 @@
 }
 
 /*this could be a mess*/
-#app-mount [class^="panels-"] svg[x="14.5"][y="17"] rect {
+#app-mount svg[x="14.5"][y="17"] rect {
   x: -14.5px !important;
   y: -17 !important;
 }
