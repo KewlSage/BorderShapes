@@ -839,7 +839,8 @@ body .button-1iHNQ2,
   y: calc(75% - 13.5px);
 }
 
-#app-mount .wrapper-1VLyxH .dots-1BwzZQ {
+#app-mount .wrapper-1VLyxH .dots-1BwzZQ,
+#app-mount foreignObject[mask^="url(#svg-mask-avatar"] + circle[fill="black"]{
   display: none;
 }
 
