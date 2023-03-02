@@ -713,6 +713,7 @@ body .button-1iHNQ2,
 #app-mount .iconActiveLarger-2EZc1b,
 #app-mount .iconInactive-26M06U,
 #app-mount .guild-J3Egt5,
+#app-mount .wrapperSimple-2SFl9K,
 #app-mount .filledIcon-2TG9HI,
 #app-mount .guildIcon-nSLcmS,
 #app-mount .guildIcon-1cwo09,
@@ -732,6 +733,7 @@ body .button-1iHNQ2,
           mask: none;
   border-radius: var(--borders-servers-default);
 }
+[class^="blobContainer"] foreignObject[mask],
 #app-mount .avatarMask-A65G5R foreignObject {
   -webkit-mask: none;
           mask: none;
@@ -758,13 +760,16 @@ body .button-1iHNQ2,
 #app-mount .expandedFolderBackground-1kSAf6 {
   border-radius: var(--borders-folders);
 }
+#app-mount .wrapper-2PSQCG foreignObject[mask] {
+  mask: none;
+}
 
   /*--------------------------------------*/
  /*-----<Avatar Stuff Border Shapes>-----*/
 /*--------------------------------------*/
 
-#app-mount .wrapper-1VLyxH foreignObject,
-#app-mount .wrapper-1VLyxH,
+#app-mount .wrapper-3Un6-K foreignObject,
+#app-mount .wrapper-3Un6-K,
 #app-mount .avatarHint-k7pYop foreignObject,
 #app-mount .avatarHint-2g3Mcd foreignObject,
 #app-mount .avatarContainerMasked-13fYnN foreignObject,
@@ -779,67 +784,67 @@ body .button-1iHNQ2,
     overflow: hidden;
 }
 
-#app-mount .wrapper-1VLyxH rect {
+#app-mount .wrapper-3Un6-K rect {
   x: calc(100% - 8px);
   y: calc(50% - 4px);
   width: 8px;
   height: 8px;
 }
 
-#app-mount .wrapper-1VLyxH rect[mask*="mobile"] {
+#app-mount .wrapper-3Un6-K rect[mask*="mobile"] {
   height: 14px;
   y: calc(50% - 7px);
 }
 
-#app-mount .wrapper-1VLyxH rect[width="6"] {
+#app-mount .wrapper-3Un6-K rect[width="6"] {
   x: calc(100% - 5px);
   y: calc(50% - 2.5px);
   width: 5px;
   height: 5px;
 }
 
-#app-mount .wrapper-1VLyxH rect[width="6"][mask*="mobile"] {
+#app-mount .wrapper-3Un6-K rect[width="6"][mask*="mobile"] {
   height: 8px;
   y: calc(50% - 4px);
 }
 
-#app-mount .wrapper-1VLyxH rect[width="8"] {
+#app-mount .wrapper-3Un6-K rect[width="8"] {
   x: calc(100% - 6px);
   y: calc(50% - 3px);
   width: 6px;
   height: 6px;
 }
 
-#app-mount .wrapper-1VLyxH rect[width="8"][mask*="mobile"] {
+#app-mount .wrapper-3Un6-K rect[width="8"][mask*="mobile"] {
   height: 11px;
   y: calc(50% - 5.5px);
 }
 
-#app-mount .wrapper-1VLyxH rect[width="16"] {
+#app-mount .wrapper-3Un6-K rect[width="16"] {
   x: calc(100% - 12px);
   y: calc(75% - 6px);
   width: 12px;
   height: 12px;
 }
 
-#app-mount .wrapper-1VLyxH rect[width="16"][mask*="mobile"] {
+#app-mount .wrapper-3Un6-K rect[width="16"][mask*="mobile"] {
   height: 18px;
   y: calc(75% - 9px);
 }
 
-#app-mount .wrapper-1VLyxH rect[width="24"] {
+#app-mount .wrapper-3Un6-K rect[width="24"] {
   x: calc(100% - 18px);
   y: calc(75% - 9px);
   width: 18px;
   height: 18px;
 }
 
-#app-mount .wrapper-1VLyxH rect[width="24"][mask*="mobile"] {
+#app-mount .wrapper-3Un6-K rect[width="24"][mask*="mobile"] {
   height: 27px;
   y: calc(75% - 13.5px);
 }
 
-#app-mount .wrapper-1VLyxH .dots-1BwzZQ,
+#app-mount .wrapper-3Un6-K .dots-1k2MxY,
 #app-mount foreignObject[mask^="url(#svg-mask-avatar"] + circle[fill="black"],
 #app-mount svg[class^="bannerSVGWrapper-"] > mask > circle {
   display: none;
@@ -993,7 +998,7 @@ rect[mask*="typing"] {
   -webkit-mask: none;
           mask: none;
 }
-#app-mount .iconBadge-3Mmg92 {
+#app-mount .base-3IDx3L {
   box-shadow: 0 0 0 2px var(--borders-color-primary);
   border-radius: var(--borders-icons-default);
 }
