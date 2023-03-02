@@ -24,10 +24,10 @@
 }
 
 
-#app-mount .wrapper-1VLyxH svg:not(:root) {
+#app-mount .wrapper-3Un6-K svg:not(:root) {
   overflow: visible;
 }
-#app-mount .wrapper-1VLyxH rect {
+#app-mount .wrapper-3Un6-K rect {
   x: 0;
   y: 0;
   width: 100%;
@@ -40,60 +40,60 @@
   fill: transparent !important;
   stroke-width: var(--rs-small-width);
 }
-#app-mount .wrapper-1VLyxH:not([style*="80px;"]):not([style*="120px;"]):not([style*="16px"]) > svg > foreignObject:not(:only-child) img {
+#app-mount .wrapper-3Un6-K:not([style*="80px;"]):not([style*="120px;"]):not([style*="16px"]) > svg > foreignObject:not(:only-child) img {
   -webkit-clip-path: inset(calc(var(--rs-small-spacing) + 1px) calc(var(--rs-small-spacing) + 1px) round var(--rs-avatar-shape));
           clip-path: inset(calc(var(--rs-small-spacing) + 1px) calc(var(--rs-small-spacing) + 1px) round var(--rs-avatar-shape));
 }
 
 
-#app-mount .wrapper-1VLyxH rect[fill="#43b581"], #app-mount .wrapper-1VLyxH rect[fill="#3ba55c"], #app-mount .wrapper-1VLyxH rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-1VLyxH rect[mask*=online], #app-mount .wrapper-1VLyxH rect[fill*="hsl(139"] {
+#app-mount .wrapper-3Un6-K rect[fill="#43b581"], #app-mount .wrapper-3Un6-K rect[fill="#3ba55c"], #app-mount .wrapper-3Un6-K rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-3Un6-K rect[mask*=online], #app-mount .wrapper-3Un6-K rect[fill*="hsl(139"] {
   stroke: var(--rs-online-color) !important;
 }
-#app-mount .wrapper-1VLyxH rect[fill="#faa61a"], #app-mount .wrapper-1VLyxH rect[fill="rgba(250, 166, 26, 1)"], #app-mount .wrapper-1VLyxH rect[mask*=idle], #app-mount .wrapper-1VLyxH rect[fill*="hsl(38"] {
+#app-mount .wrapper-3Un6-K rect[fill="#faa61a"], #app-mount .wrapper-3Un6-K rect[fill="rgba(250, 166, 26, 1)"], #app-mount .wrapper-3Un6-K rect[mask*=idle], #app-mount .wrapper-3Un6-K rect[fill*="hsl(38"] {
   stroke: var(--rs-idle-color) !important;
 }
-#app-mount .wrapper-1VLyxH rect[fill="#f04747"], #app-mount .wrapper-1VLyxH rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper-1VLyxH rect[fill="#ed4245"], #app-mount .wrapper-1VLyxH rect[mask*=dnd], #app-mount .wrapper-1VLyxH rect[fill*="hsl(359"] {
+#app-mount .wrapper-3Un6-K rect[fill="#f04747"], #app-mount .wrapper-3Un6-K rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper-3Un6-K rect[fill="#ed4245"], #app-mount .wrapper-3Un6-K rect[mask*=dnd], #app-mount .wrapper-3Un6-K rect[fill*="hsl(359"] {
   stroke: var(--rs-dnd-color) !important;
 }
-#app-mount .wrapper-1VLyxH rect[fill="#593695"], #app-mount .wrapper-1VLyxH rect[mask*=streaming] {
+#app-mount .wrapper-3Un6-K rect[fill="#593695"], #app-mount .wrapper-3Un6-K rect[mask*=streaming] {
   stroke: var(--rs-streaming-color) !important;
 }
-#app-mount .wrapper-1VLyxH rect[fill="#747f8d"], #app-mount .wrapper-1VLyxH rect[mask*=offline], #app-mount .wrapper-1VLyxH rect[fill=NaN] {
+#app-mount .wrapper-3Un6-K rect[fill="#747f8d"], #app-mount .wrapper-3Un6-K rect[mask*=offline], #app-mount .wrapper-3Un6-K rect[fill=NaN] {
   stroke: var(--rs-offline-color) !important;
 }
-#app-mount .wrapper-1VLyxH rect[fill="#747f8d"], #app-mount .wrapper-1VLyxH rect[mask*=invisible], #app-mount .wrapper-1VLyxH rect[fill="rgba(116, 127, 141, 1)"], #app-mount .wrapper-1VLyxH rect[fill*="hsl(214"] {
+#app-mount .wrapper-3Un6-K rect[fill="#747f8d"], #app-mount .wrapper-3Un6-K rect[mask*=invisible], #app-mount .wrapper-3Un6-K rect[fill="rgba(116, 127, 141, 1)"], #app-mount .wrapper-3Un6-K rect[fill*="hsl(214"] {
   stroke: var(--rs-invisible-color) !important;
 }
-#app-mount .wrapper-1VLyxH rect[mask*="typing"] {
+#app-mount .wrapper-3Un6-K rect[mask*="typing"] {
   stroke: white !important;
 }
 
-#app-mount .wrapper-1VLyxH rect {
+#app-mount .wrapper-3Un6-K rect {
   x: 0 !important;
   y: 0 !important;
 }
-#app-mount .wrapper-1VLyxH rect[x="16"] {
+#app-mount .wrapper-3Un6-K rect[x="16"] {
   width: 24px !important;
   height: 24px !important;
 }
-#app-mount .wrapper-1VLyxH rect[x="28"] {
+#app-mount .wrapper-3Un6-K rect[x="28"] {
   width: 40px !important;
   height: 40px !important;
 }
-#app-mount .wrapper-1VLyxH[style*="32px"] rect {
+#app-mount .wrapper-3Un6-K[style*="32px"] rect {
   width: 32px !important;
   height: 32px !important;
 }
-#app-mount .wrapper-1VLyxH[style*="80px"] rect {
+#app-mount .wrapper-3Un6-K[style*="80px"] rect {
   width: 80px !important;
   height: 80px !important;
 }
-#app-mount .wrapper-1VLyxH[style*="120px"] rect {
+#app-mount .wrapper-3Un6-K[style*="120px"] rect {
   width: 120px !important;
   height: 120px !important;
 }
 
-#app-mount .wrapper-1VLyxH svg.mask-1FEkla > foreignObject {
+#app-mount .wrapper-3Un6-K svg.mask-1y0tyc > foreignObject {
   border-radius: 0% !important;
 }
 
